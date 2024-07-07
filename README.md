@@ -1,6 +1,6 @@
-# Girl-power
+# Girl-power 💃💃💃
 For girl power
 Kristīne Smildziņa
 Ariel
 Maile
-Dace
+Dace Alencika
