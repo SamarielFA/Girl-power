@@ -1,4 +1,4 @@
-# 1. Create an array in the endpoint, fill the array with data and access it from the URL #
+//1. Create an array in the endpoint, fill the array with data and access it from the URL 
 
 ```java
 @GetMapping("/years")
@@ -12,8 +12,7 @@
 
 
 
-# 2. Create an object (new class, cheese or wine or whatever) in the endpoint, fill the object, access it from the URL #
-package com.datorium.Datorium.API;
+// 2. Create an object (new class, cheese or wine or whatever) in the endpoint, fill the object, access it from the URL 
 
 ```java
 package com.datorium.Datorium.API;
