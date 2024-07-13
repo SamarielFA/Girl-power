@@ -19,5 +19,6 @@ gender.plot(kind='bar', x='Gender', y='Count', color=gender_colors)
 plt.xlabel('Gender')
 plt.ylabel('Count')
 plt.title('Gender Distribution')
+plt.xticks(rotation=0, ha='center')
 plt.show()
 
