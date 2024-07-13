@@ -1,5 +1,5 @@
-1.task
-```
+1.TASK
+
 import pandas as pd
 import matplotlib.pyplot as plt
 
@@ -20,4 +20,4 @@ plt.xlabel('Gender')
 plt.ylabel('Count')
 plt.title('Gender Distribution')
 plt.show()
-```
+
