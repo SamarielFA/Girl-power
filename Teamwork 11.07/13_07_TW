@@ -1,0 +1,22 @@
+1.task
+
+import pandas as pd
+import matplotlib.pyplot as plt
+
+dataset = pd.read_csv('/content/transaction_dataset (1).csv')
+
+
+gender = dataset['Gender'].value_counts(dropna=False).reset_index()
+gender.columns = ['Gender', 'Count']
+
+color_map = {
+    'F': 'red',
+    'M': 'blue',
+}
+
+gender_colors = [color_map.get(g, 'yellow') for g in gender['Gender']]
+gender.plot(kind='bar', x='Gender', y='Count', color=gender_colors)
+plt.xlabel('Gender')
+plt.ylabel('Count')
+plt.title('Gender Distribution')
+plt.show()
