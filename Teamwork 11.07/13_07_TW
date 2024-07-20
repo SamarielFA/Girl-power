@@ -22,3 +22,19 @@ plt.title('Gender Distribution')
 plt.xticks(rotation=0, ha='center')
 plt.show()
 
+2.TASK
+
+names=dataset['Name'].value_counts()
+print(names)
+
+first_five = names.iloc[:5]
+print(first_five)
+
+df = first_five.reset_index()
+df.columns = ['Name', 'Count']
+
+plt.barh(df['Name'], df['Count'], color = 'magenta')
+plt.title('Top 5 most frequent names')
+plt.xlabel('Name')
+plt.ylabel('Count')
+
