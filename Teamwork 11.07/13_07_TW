@@ -38,3 +38,13 @@ plt.title('Top 5 most frequent names')
 plt.xlabel('Name')
 plt.ylabel('Count')
 
+
+3.TASK
+
+if 'Category' in dataset.columns and 'Gender' in dataset.columns:
+    filtered_df = dataset[(dataset['Category'] == 'Clothing') & (dataset['Gender'] == 'M')]
+    num_filtered_rows = len(filtered_df)
+    print(f"The filtered DataFrame has {num_filtered_rows} rows.")
+    
+else:
+    print("The DataFrame does not contain the required columns.")
