@@ -1,2 +1,94 @@
+//1. Create an array in the endpoint, fill the array with data and access it from the URL 
+
+```java
+@GetMapping("/years")
+public int[] years() {
+	int [] years = {1987, 1999, 2015, 2020, 2022};
+	return years;
+}```
+
+
+
+
+
+
+// 2. Create an object (new class, cheese or wine or whatever) in the endpoint, fill the object, access it from the URL 
+
+```java
+package com.datorium.Datorium.API;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.web.bind.annotation.CrossOrigin;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.RestController;
+import java.util.ArrayList;
+import java.util.List;
+
+@SpringBootApplication
+@RestController
+@CrossOrigin
+public class DatoriumApiApplication {
+
+	public List<String> dataArray;
+
+	public static void main(String[] args) {
+		System.out.println("asd");
+		SpringApplication.run(DatoriumApiApplication.class, args);
+	}
+ 
+	@GetMapping("/cheese")
+	public ArrayList<Cheese> getCheeses() {
+		ArrayList<Cheese> cheeses = new ArrayList<>();
+		cheeses.add(new Cheese("Maasdam", "lightyellow", 13.00, "EUR"));
+		cheeses.add(new Cheese("Parmesan", "paleyellow", 17.00, "EUR"));
+		return cheeses;
+	}
+}```
+
+
+
+```java
+public class Cheese {
+    public String name;
+    public String color;
+    public double price;
+    public String currency;
+
+    public Cheese(){
+            }
+    public Cheese(String name, String color, double price, String currency){
+        this.name = name;
+        this.color = color;
+        this.price = price;
+        this.currency = currency;
+    }
+    public String getName() {
+        return name;
+    }
+    public void setName(String name) {
+        this.name = name;
+    }
+    public double getPrice() {
+        return price;
+    }
+    public void setPrice(double price) {
+        this.price = price;
+    }
+    public String getColor() {
+        return color;
+    }
+    public void setColor(String color) {
+        this.color = color;
+    }
+    public String getCurrency() {
+        return currency;
+    }
+    public void setCurrency(String currency) {
+        this.currency = currency;
+    }
+}```
+
 
 
