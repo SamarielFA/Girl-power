@@ -1,1 +1,50 @@
+1.TASK
 
+import pandas as pd
+import matplotlib.pyplot as plt
+
+dataset = pd.read_csv('/content/transaction_dataset (1).csv')
+
+
+gender = dataset['Gender'].value_counts(dropna=False).reset_index()
+gender.columns = ['Gender', 'Count']
+
+color_map = {
+    'F': 'red',
+    'M': 'blue',
+}
+
+gender_colors = [color_map.get(g, 'yellow') for g in gender['Gender']]
+gender.plot(kind='bar', x='Gender', y='Count', color=gender_colors)
+plt.xlabel('Gender')
+plt.ylabel('Count')
+plt.title('Gender Distribution')
+plt.xticks(rotation=0, ha='center')
+plt.show()
+
+2.TASK
+
+names=dataset['Name'].value_counts()
+print(names)
+
+first_five = names.iloc[:5]
+print(first_five)
+
+df = first_five.reset_index()
+df.columns = ['Name', 'Count']
+
+plt.barh(df['Name'], df['Count'], color = 'magenta')
+plt.title('Top 5 most frequent names')
+plt.xlabel('Name')
+plt.ylabel('Count')
+
+
+3.TASK
+
+if 'Category' in dataset.columns and 'Gender' in dataset.columns:
+    filtered_df = dataset[(dataset['Category'] == 'Clothing') & (dataset['Gender'] == 'M')]
+    num_filtered_rows = len(filtered_df)
+    print(f"The filtered DataFrame has {num_filtered_rows} rows.")
+    
+else:
+    print("The DataFrame does not contain the required columns.")
