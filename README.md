@@ -1,5 +1,5 @@
 # Girl-power 💃💃💃
-### (team-39) ###
+### (team-37) ###
 For girl power
 ## Kristīne Smildziņa ##
 - I'm a full-time mother (to 2 year young lady) I have a lot of hope and big motivation to gain knowledge in the field of IT. In my professional experience, I have spent several years as an assistant to a manager within a technology and than in retail network. During my duties, I have combined my core responsibilities with freelance work in social media management, graphic design, project management, photography, and website development using the Wix platform
