@@ -48,5 +48,6 @@ public class Food {
 ```
 
 
+![image](https://github.com/user-attachments/assets/ea932cb5-439a-45fc-b501-d520a9518c78)
 
 
