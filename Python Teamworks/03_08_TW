@@ -18,3 +18,11 @@ plt.title("Pokemons with Speed >= 80")
 plt.xlabel("Speed")
 plt.ylabel("Frequency")
 plt.show()
+
+
+#FOURTH TASK
+pokemon_df['Name_Without_Spaces'] = pokemon_df['Name'].str.replace(' ', '', regex=False)
+pokemon_df['Name_Length'] = pokemon_df['Name_Without_Spaces'].str.len()
+longest_name_row = pokemon_df.loc[pokemon_df['Name_Length'].idxmax()]
+longest_name = longest_name_row['Name']
+print(f"The Pokemon with the longest name (excluding spaces) is: {longest_name}")
