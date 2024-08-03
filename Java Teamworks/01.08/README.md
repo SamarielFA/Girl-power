@@ -1,3 +1,4 @@
+## Teamwork
 1. Send a POST request
 
 public ResultItem sendItem(Item item)
@@ -7,7 +8,8 @@ public ResultItem sendItem(Item item)
 3. Test it out POSTMAN
 
 
-## DatoriumApiApplication.java
+## Code
+DatoriumApiApplication.java
 ```java
 
 @PostMapping("/recipe")
@@ -26,7 +28,7 @@ public ResultItem sendItem(Item item)
     }
 ```
 
-## Ingredients.java
+Ingredients.java
 ```java
 
 package com.datorium.Datorium.API;
@@ -37,7 +39,7 @@ public class Ingredients {
 }
 ```
 
-## Food.java
+Food.java
 ```java
 
 package com.datorium.Datorium.API;
