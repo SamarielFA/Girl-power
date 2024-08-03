@@ -1,10 +1,6 @@
 ## Teamwork
-1. Send a POST request
-
-public ResultItem sendItem(Item item)
-
+1. Send a POST request public ResultItem sendItem(Item item)
 2. You should send one object and receive a different object with different data
-
 3. Test it out POSTMAN
 
 
