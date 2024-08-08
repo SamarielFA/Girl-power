@@ -1,8 +1,10 @@
 
-##
+## POSTMAN PREVIEW
 ![image](https://github.com/user-attachments/assets/5e87f56f-e723-4218-b61d-78d2ed561a1b)
 
-##
+## CODE
+### MessageController.java
+
 ```java
 package com.datorium.Datorium.API.Controllers;
 
@@ -26,7 +28,8 @@ public class MessageController {
 
 
 
-##
+### MessageService.java
+
 ```java
 package com.datorium.Datorium.API.Services;
 
@@ -40,7 +43,8 @@ public class MessageService {
 }```
 
 
-##
+### Message.java
+
 ```java
 package com.datorium.Datorium.API.DTOs;
 
