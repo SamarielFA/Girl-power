@@ -28,7 +28,7 @@ public class MessageController {
 
 
 
-### MessageService.java
+## MessageService.java
 
 ```java
 package com.datorium.Datorium.API.Services;
@@ -43,7 +43,7 @@ public class MessageService {
 }```
 
 
-### Message.java
+## Message.java
 
 ```java
 package com.datorium.Datorium.API.DTOs;
