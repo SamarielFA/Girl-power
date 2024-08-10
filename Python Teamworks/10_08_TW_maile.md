@@ -10,7 +10,7 @@ Task: Visualizing the correlation of Attack and Defense variables of two Types: 
 
 
 ```python
-Create two DataFrame Grass and Water
+# Create two DataFrame Grass and Water
 
 grass_df = pokemon_df[pokemon_df['Type 1'] == 'Grass']
 water_df = pokemon_df[pokemon_df['Type 1'] == 'Water']
