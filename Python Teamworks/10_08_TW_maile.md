@@ -7,7 +7,12 @@ Task: Visualizing the correlation of Attack and Defense variables of two Types: 
 4. Explain to each other what do you see and what it means.
 
 
+```python
+import pandas as pd
+import matplotlib.pyplot as plt
 
+pokemon_df = pd.read_csv('/content/Pokemon.csv')
+```
 
 ```python
 # Create two DataFrame Grass and Water
