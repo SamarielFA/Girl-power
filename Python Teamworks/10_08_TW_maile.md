@@ -46,5 +46,7 @@ print('Grass correlation is:', correlation3)
 print('Water correlation is:', correlation4)
 ```
 
-Explain to each other what do you see and what it means.
-There is moderate correlation for both water and grass regarding Attack and Defernce. 
+```python
+# Explain to each other what do you see and what it means.
+# There is moderate correlation for both water and grass regarding Attack and Defernce. 
+```
