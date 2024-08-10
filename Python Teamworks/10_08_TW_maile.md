@@ -50,3 +50,5 @@ print('Water correlation is:', correlation4)
 # Explain to each other what do you see and what it means.
 # There is moderate correlation for both water and grass regarding Attack and Defernce. 
 ```
+
+![image](https://github.com/user-attachments/assets/cd279426-3dea-46a5-913b-c48414b05cea)
