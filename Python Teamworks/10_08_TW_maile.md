@@ -12,10 +12,8 @@ import matplotlib.pyplot as plt
 
 pokemon_df = pd.read_csv('/content/Pokemon.csv')
 ```
-
+1. Create two DataFrame Grass and Water
 ```python
-# Create two DataFrame Grass and Water
-
 grass_df = pokemon_df[pokemon_df['Type 1'] == 'Grass']
 water_df = pokemon_df[pokemon_df['Type 1'] == 'Water']
 ```
