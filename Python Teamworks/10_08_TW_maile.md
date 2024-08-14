@@ -42,9 +42,8 @@ print('Water correlation is:', correlation4)
 ![image](https://github.com/user-attachments/assets/cd279426-3dea-46a5-913b-c48414b05cea)
 
 
-```python
-# Explain to each other what do you see and what it means.
-# There is moderate correlation for both water and grass regarding Attack and Defernce. 
-```
+4. Explain to each other what do you see and what it means.
+- The Grass  graph shows that when a Grass-type Pokémon has a higher Attack stat, it often also has a higher Defense stat. The connection isn't super strong, but it's definitely there.
+- Just like with Grass types, Water-type Pokémon with higher Attack stats usually have higher Defense stats, but again, it's not a very strong link.
+- For both Grass and Water Pokémon, higher Attack stats often come with higher Defense stats, but it's not a guaranteed thing. The connection is there, but it's not super tight, it's just moderate.
 
-![image](https://github.com/user-attachments/assets/cd279426-3dea-46a5-913b-c48414b05cea)
