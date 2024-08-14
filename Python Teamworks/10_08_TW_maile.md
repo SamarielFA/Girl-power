@@ -17,10 +17,8 @@ pokemon_df = pd.read_csv('/content/Pokemon.csv')
 grass_df = pokemon_df[pokemon_df['Type 1'] == 'Grass']
 water_df = pokemon_df[pokemon_df['Type 1'] == 'Water']
 ```
-
+2. Create the regression plots for each (Grass and Water)
 ```python
-# Create the regression plots for each (Grass and Water)
-
 import seaborn as sns
 
 sns.regplot(
@@ -33,15 +31,14 @@ sns.regplot(
     ci=99, marker="x", color=".3", line_kws=dict(color="blue"),
 )
 ```
-
+3. Calculate the Pearson correlation for each DataFrame (variables: Attack and Defense)
 ```python
-# Calculate the Pearson correlation for each DataFrame (variables: Attack and Defense)
-
 correlation3 = grass_df['Attack'].corr(grass_df['Defense'])
 correlation4 = water_df['Attack'].corr(water_df['Defense'])
 
 print('Grass correlation is:', correlation3)
 print('Water correlation is:', correlation4)
+![image](https://github.com/user-attachments/assets/cd279426-3dea-46a5-913b-c48414b05cea)
 ```
 
 ```python
