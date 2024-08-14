@@ -5,7 +5,7 @@ Task: Visualizing the correlation of Attack and Defense variables of two Types: 
 3. Calculate the Pearson correlation for each DataFrame (variables: Attack and Defense)
 4. Explain to each other what do you see and what it means.
 
-# Code
+Code
 ```python
 import pandas as pd
 import matplotlib.pyplot as plt
