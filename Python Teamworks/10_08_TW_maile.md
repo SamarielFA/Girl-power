@@ -38,8 +38,9 @@ correlation4 = water_df['Attack'].corr(water_df['Defense'])
 
 print('Grass correlation is:', correlation3)
 print('Water correlation is:', correlation4)
-![image](https://github.com/user-attachments/assets/cd279426-3dea-46a5-913b-c48414b05cea)
 ```
+![image](https://github.com/user-attachments/assets/cd279426-3dea-46a5-913b-c48414b05cea)
+
 
 ```python
 # Explain to each other what do you see and what it means.
