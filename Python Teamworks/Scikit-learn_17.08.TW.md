@@ -59,6 +59,14 @@ So, supervised learning is like learning with a helper, and unsupervised learnin
 
 ### 7. What is model overfitting, and how can it be prevented?
 
+Model overfitting occurs when a machine learning model learns not just the underlying patterns in the training data but also the noise and outliers. As a result, the model performs exceptionally well on the training data but fails to generalize to new, unseen data, leading to poor performance on the test set or in real-world applications.
+
+* Causes of Overfitting:
+- Complexity of the Model: Highly complex models (e.g., deep neural networks with many layers, decision trees with many branches) can capture intricate patterns in the data, including noise.
+- Insufficient Training Data: If the amount of training data is small, the model might not have enough information to generalize well, leading to overfitting.
+- Too Many Features: Using a large number of features, especially when some are irrelevant, can cause the model to fit the noise in the data.
+- Training for Too Long: If a model is trained for too many epochs, it might start fitting the noise in the training data.
+
 
 
 
