@@ -9,4 +9,13 @@ Task: This is a complicated topic, teamwork is to look at scikit-learn library t
 7. What is model overfitting, and how can it be prevented?
 
 Linear regression modesls: https://scikit-learn.org/stable/modules/linear_model.html
+
 The overall documentation: https://scikit-learn.org/stable
+
+
+
+
+
+
+
+### 3. What is the difference between supervised and unsupervised training?
