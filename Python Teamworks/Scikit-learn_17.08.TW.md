@@ -25,7 +25,7 @@ Supervised learning - we have labeled data.
 In supervised learning, the goal is to predict outcomes for new data. You know up front the type of results to expect. With an unsupervised learning algorithm, the goal is to get insights from large volumes of new data. The machine learning itself determines what is different or interesting from the data set.
 
 Imagine you have a big box of colorful toy blocks, and you want to learn how to sort them.
-**Supervised Learning**:
+< br / >**Supervised Learning**:
 Example: Think of it like having a teacher or a grown-up sitting with you and showing you how to sort the blocks by color.
 How it works: The teacher gives you examples, like, "This block is red, so it goes in the red pile," and "This block is blue, so it goes in the blue pile." You learn from these examples, and then you can sort the blocks by yourself because you know what to do.
 Unsupervised Learning:
