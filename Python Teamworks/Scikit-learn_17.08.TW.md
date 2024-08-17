@@ -45,3 +45,25 @@ Imagine you have a big box of colorful toy blocks, and you want to learn how to 
 • In **supervised learning**, you have someone to guide you and show you the right way to sort things.<br/>
 • In **unsupervised learning**, you figure out the best way to sort things on your own, by looking for patterns and similarities.<br/>
 So, supervised learning is like learning with a helper, and unsupervised learning is like exploring and discovering patterns by yourself!
+
+
+
+
+
+
+
+
+
+
+
+
+### 7. What is model overfitting, and how can it be prevented?
+
+
+
+
+
+
+
+
+
