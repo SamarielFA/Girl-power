@@ -88,4 +88,5 @@ Pruning: Cut off the less important branches of a decision tree to make it less 
 - Good Fit is like a student who studied well—understanding the core concepts.
 - Overfitting is like a student who memorized everything—even the mistakes—and struggles with new questions.
 
+![image](https://github.com/user-attachments/assets/18e2ff3a-5675-41a0-ba0f-ee98532dc4c3)
 
