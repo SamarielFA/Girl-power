@@ -19,3 +19,6 @@ The overall documentation: https://scikit-learn.org/stable
 
 
 ### 3. What is the difference between supervised and unsupervised training?
+Unsupervised learning - we don't have labeled data.
+Supervised learning - we have labeled data.
+
