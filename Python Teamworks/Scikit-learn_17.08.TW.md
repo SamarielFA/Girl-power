@@ -22,3 +22,5 @@ The overall documentation: https://scikit-learn.org/stable
 Unsupervised learning - we don't have labeled data.
 Supervised learning - we have labeled data.
 
+In supervised learning, the goal is to predict outcomes for new data. You know up front the type of results to expect. With an unsupervised learning algorithm, the goal is to get insights from large volumes of new data. The machine learning itself determines what is different or interesting from the data set.
+
