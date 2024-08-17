@@ -42,6 +42,6 @@ Imagine you have a big box of colorful toy blocks, and you want to learn how to 
 **• Example**: This time, you're sorting the blocks all by yourself, without anyone telling you how to do it.<br/>
 **• How it works**: You start grouping the blocks by how they look or feel—maybe you notice that some are big, some are small, some are smooth, and some are rough. You make groups based on what you see, even though no one told you how to do it.<br/>
 **The Difference**:<br/>
-In **• supervised learning**, you have someone to guide you and show you the right way to sort things.<br/>
-In **• unsupervised learning**, you figure out the best way to sort things on your own, by looking for patterns and similarities.<br/>
+• In **supervised learning**, you have someone to guide you and show you the right way to sort things.<br/>
+• In **unsupervised learning**, you figure out the best way to sort things on your own, by looking for patterns and similarities.<br/>
 So, supervised learning is like learning with a helper, and unsupervised learning is like exploring and discovering patterns by yourself!
