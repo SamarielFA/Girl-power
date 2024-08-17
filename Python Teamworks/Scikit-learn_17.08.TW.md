@@ -18,6 +18,8 @@ The error rate is often used to assess how well a model is performing. It is cal
 ![Screenshot 2024-08-17 130351](https://github.com/user-attachments/assets/67f4e91a-fed3-4a0b-a840-395ba915caa6)
 ![Screenshot 2024-08-17 130448](https://github.com/user-attachments/assets/770f8b8e-296e-451e-a682-252833809a1f)
 
+Understanding and calculating error rate helps in improving model performance, diagnosing issues,
+and making informed decisions based on the model's effectiveness.
 There You can find a video with an explanations: https://www.youtube.com/watch?v=D4UTA4vCElg&t=216s
 
 
