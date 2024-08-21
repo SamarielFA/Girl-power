@@ -1,3 +1,4 @@
+# Explore different filters and their combinations with SQL
 
 ```sql
 
