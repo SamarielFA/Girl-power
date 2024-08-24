@@ -9,6 +9,7 @@ k_fold = KFold(n_splits=10, shuffle=True, random_state=42)
 accuracy_scores = cross_val_score(model_knn_cv, X, y, cv=k_fold, scoring='accuracy')
 
 
+Easy
 ```python
 from sklearn.tree import DecisionTreeClassifier #import
 
