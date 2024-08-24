@@ -11,6 +11,8 @@ accuracy_scores = cross_val_score(model_knn_cv, X, y, cv=k_fold, scoring='accura
 
 Easy
 ```python
+Easy
+
 from sklearn.tree import DecisionTreeClassifier #import
 
 dtc_model = DecisionTreeClassifier()    # initialize
