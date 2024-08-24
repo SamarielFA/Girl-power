@@ -16,6 +16,6 @@ dtc_model = DecisionTreeClassifier()    # initialize
 
 dtc_model.fit(X_train, y_train)   # train
 
-dtc_prediction_results = dtc_model.predict(X_test)    # make predictions
+dtc_prediction_results = dtc_model.predict(X_test)
 dtc_prediction_results
 ```
