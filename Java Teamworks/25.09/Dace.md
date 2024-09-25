@@ -1,3 +1,10 @@
+
+# ROTATE IMAGE Task
+## Medium
+###You are given an n x n 2D matrix representing an image, rotate the image by 90 degrees (clockwise).
+
+https://leetcode.com/problems/rotate-image/description/
+
 ```java
 public class RotateImage {
 
@@ -47,7 +54,8 @@ public class RotateImage {
         System.out.println("\nMatrix Rotated  by 90 degrees clockwise:");
         printMatrix(matrix);
     }
-}```
+}
+```
 
 ![image](https://github.com/user-attachments/assets/3acf9c40-7ddc-44ff-a9a3-00471d01b0b6)
 
