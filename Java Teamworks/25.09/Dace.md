@@ -48,3 +48,7 @@ public class RotateImage {
         printMatrix(matrix);
     }
 }```
+
+![image](https://github.com/user-attachments/assets/3acf9c40-7ddc-44ff-a9a3-00471d01b0b6)
+
+
